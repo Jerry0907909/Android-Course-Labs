@@ -10,7 +10,7 @@
 ```text
 Android-Course-Labs/
 ├── Calculator/
-└── Himalaya/
+└── Himalaya/（在Himalaya中 包含了除开计算器以外的其他所有实验的项目）
 ```
 
 ## 使用方式
