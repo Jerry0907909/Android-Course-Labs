@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="himalaya_primary">#FF8A3D</color>
+    <color name="himalaya_accent">#FF8DA1</color>
+    <color name="himalaya_hint">#FF8E8E8E</color>
+    <color name="himalaya_light_gray">#FFE6E6E6</color>
+    <color name="himalaya_divider">#FFF5A67D</color>
+    <color name="himalaya_green">#FF73BE62</color>
+    <color name="himalaya_blue">#FF4D7EBB</color>
+    <color name="chapter07_primary">#3964FE</color>
+    <color name="chapter07_primary_dark">#2449C8</color>
+    <color name="chapter07_surface">#F6F8FF</color>
+    <color name="chapter07_stroke">#DCE4FF</color>
+    <color name="chapter07_text_secondary">#62708C</color>
+    <color name="chapter07_income">#15A34A</color>
+    <color name="chapter07_expense">#DC2626</color>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/address_edit_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp"
+    android:paddingTop="12dp"
+    android:paddingBottom="24dp"
+    tools:context=".AddressEditActivity">
+
+    <TextView
+        android:id="@+id/tv_address_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_symbol"
+        android:textColor="@android:color/black"
+        android:textSize="26sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-28dp"
+        android:text="@string/address_edit_title"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:hint="@string/receiver_city_hint"
+        android:inputType="textPostalAddress"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/et_street"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/receiver_street_hint"
+        android:inputType="textPostalAddress"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/et_house"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/receiver_house_hint"
+        android:inputType="textPostalAddress"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/receiver_name_hint"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/receiver_phone_hint"
+        android:inputType="phone"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/et_postcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/receiver_postcode_hint"
+        android:inputType="number"
+        android:textColor="@android:color/black" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_save_address"
+        android:layout_width="120dp"
+        android:layout_height="52dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="@color/himalaya_primary"
+        android:text="@string/save_address"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

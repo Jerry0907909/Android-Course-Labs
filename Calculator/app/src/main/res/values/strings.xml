@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">简单计算器</string>
+    <string name="sqrt_button">开根号</string>
+</resources>
